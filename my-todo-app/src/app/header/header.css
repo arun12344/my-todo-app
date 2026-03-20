@@ -1,0 +1,16 @@
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background-color: #188985 !important;
+}
+
+button[mat-button] {
+  color: white !important;
+}
