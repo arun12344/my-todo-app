@@ -1,8 +1,13 @@
 <div>
   <app-header></app-header>
+  </div>
   <div class="content">
     <router-outlet></router-outlet>
   </div>
   <div>
-    <app-add-tasks></app-add-tasks>
+    <app-add-tasks (taskAdded)="onTaskAdded($event)"></app-add-tasks>
   </div>
+  <div>
+    <app-display-tasks [tasks]="tasks"></app-display-tasks>
+  </div>
+
