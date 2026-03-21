@@ -1,0 +1,11 @@
+@for (task of tasks; track task.id) {
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{ task.title }}</mat-card-title>
+      <mat-card-subtitle>{{ task.priority }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ task.description }}</p>
+    </mat-card-content>
+  </mat-card>
+}
