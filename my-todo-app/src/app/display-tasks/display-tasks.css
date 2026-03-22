@@ -1,0 +1,12 @@
+.High {
+    background: linear-gradient(to right, transparent 90%, red 95%);
+}
+.Medium {
+    background: linear-gradient(to right, transparent 90%, orange 95%);
+}
+.Normal {
+    background: linear-gradient(to right, transparent 90%, blue 95%);
+}
+.Low {
+    background: linear-gradient(to right, transparent 90%, green 95%);
+}
